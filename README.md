@@ -1,17 +1,6 @@
 # guestbook
 Guestbook generator for Airbnb listing
 
-This Python script can be used to create automatically a guesbook from all the public reviews of a given Airbnb listing. 
-
-
-Prerequisies
-
-
-
-
-# guestbook
-Guestbook generator for Airbnb listing
-
 This Python script can be used to create automatically a guesbook from all the public reviews of a given Airbnb listing
 
 
@@ -46,4 +35,4 @@ offset = 0 #what number review to start from, for instance 2 will start from the
 
 ## Acknowledgments
 
-* tbd
+* To do
