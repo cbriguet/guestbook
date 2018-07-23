@@ -38,8 +38,8 @@ to get your client_id go the the Dashboard page, open the developer tools from C
 to get get your listing id go to Manage Listing, select Preview My Listing and look at the url. There will be a number after /rooms and before the next bit of text. That is your listing_id number.
 
 ```
-client_id = "d306zoyjsyarp7ifhu67rjxn52tv0t20" #Client id from api url
-listing_id = "2166417" #Listing id from api url
+client_id = "" #Client id from api url
+listing_id = "" #Listing id from api url
 number = 100 #max 100
 offset = 0 #what number review to start from, for instance 2 will start from the second review
 ```
