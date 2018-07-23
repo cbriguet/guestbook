@@ -6,8 +6,10 @@ This Python script can be used to create automatically a guesbook from all the p
 
 ## Prerequisites
 
-sphc -> pip3 install sphc 
 
+requests -> pip install requests
+
+sphc -> pip install sphc 
 Note for Python3 users, if you enconter an "NameError: name 'basestring' is not defined", add the following code at the begining of the file /usr/local/lib/python3.7/site-packages/sphc/__init__.py
 
 ```
@@ -33,6 +35,14 @@ number = 100 #max 100
 offset = 0 #what number review to start from, for instance 2 will start from the second review
 ```
 
+## Usage example
+
+From the guesbook repo
+```
+./guestbook.command
+```
+
 ## Acknowledgments
 
-* To do
+* Inspired from https://github.com/hyperdemon/HelpXWorkawayAirbnbReviewScraper
+
