@@ -8,10 +8,12 @@ This Python script can be used to create automatically a guesbook from all the p
 
 
 requests -> 
-```pip install requests
+```
+pip install requests
 ```
 sphc -> 
-```pip install sphc 
+```
+pip install sphc 
 ```
 Note for Python3 users, if you enconter an "NameError: name 'basestring' is not defined", add the following code at the begining of the file /usr/local/lib/python3.7/site-packages/sphc/__init__.py
 
