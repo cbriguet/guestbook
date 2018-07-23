@@ -1,11 +1,49 @@
 # guestbook
 Guestbook generator for Airbnb listing
 
-This Python script can be used to create automatically a guesbook from all the public reviews of a given Airbnb listing.
+This Python script can be used to create automatically a guesbook from all the public reviews of a given Airbnb listing. 
 
-Launch guestbook.command to get all feedback from airbnb.
-- This script can only get 100 reviews at a time
-- Looking for ****** where you can change which reviews you're receiving
-- For instance number = 50 and offset = 100 will get you reviews 100 through to 150
-- Add client id and listing id of listing you want to scrape reviews from
 
+Prerequisies
+
+
+
+
+# guestbook
+Guestbook generator for Airbnb listing
+
+This Python script can be used to create automatically a guesbook from all the public reviews of a given Airbnb listing
+
+
+## Prerequisites
+
+sphc -> pip3 install sphc 
+
+Note for Python3 users, if you enconter an "NameError: name 'basestring' is not defined", add the following code at the begining of the file /usr/local/lib/python3.7/site-packages/sphc/__init__.py
+
+```
+try:
+  basestring
+except NameError:
+  basestring = str
+```
+
+
+## Configuration
+
+Edit the guestbook.command file
+
+to get your client_id go the the Dashboard page, open the developer tools from Chrome, and search for the client_id string.
+
+to get get your listing id go to Manage Listing, select Preview My Listing and look at the url. There will be a number after /rooms and before the next bit of text. That is your listing_id number.
+
+```
+client_id = "d306zoyjsyarp7ifhu67rjxn52tv0t20" #Client id from api url
+listing_id = "2166417" #Listing id from api url
+number = 100 #max 100
+offset = 0 #what number review to start from, for instance 2 will start from the second review
+```
+
+## Acknowledgments
+
+* tbd
