@@ -47,6 +47,8 @@ From the guesbook repo
 ./guestbook.command
 ```
 
+![Sample Guesbook](https://github.com/cbriguet/guestbook/blob/master/guestbook_sample.png)
+
 ## Acknowledgments
 
 * Inspired from https://github.com/hyperdemon/HelpXWorkawayAirbnbReviewScraper
