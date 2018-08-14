@@ -11,8 +11,8 @@ __location__ = os.path.realpath(
 
 client_id = "" #Client id from api url
 listing_id = "" #Listing id from api url
-number = 100 #max 100
-offset = 0 #what number review to start from, for instance 2 will start from the second review
+number = 0 #max 100
+offset = 100 #what number review to start from, for instance 2 will start from the second review
 
 
 #******************************************
