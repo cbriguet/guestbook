@@ -46,7 +46,7 @@ From the guesbook repo
 ```
 ./guestbook.command
 ```
-
+## Sample guestbook
 ![Sample Guesbook](https://github.com/cbriguet/guestbook/blob/master/guestbook_sample.png)
 
 ## Acknowledgments
